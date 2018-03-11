@@ -5,6 +5,7 @@
 p{
 	color:green;
 	padding:20px;
+	font-size: px;
 }
 h1{
 	text-align: center;	
@@ -45,3 +46,19 @@ li{
 	border-style: solid;
 	box-sizing: border-box;
 }
+
+#divGrande{
+	height:800;
+	width:600;
+}
+#primerDiv{
+	position: absolute;
+    top: 300px;
+    right: 400px;
+    background-image: url("naruto.jpg");
+}
+
+#SegundoDiv{
+
+}
+
