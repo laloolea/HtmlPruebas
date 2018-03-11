@@ -1,0 +1,47 @@
+.paragraph{
+	color:blue;
+	text-shadow: 2px 2px #ff0000;
+}
+p{
+	color:green;
+	padding:20px;
+}
+h1{
+	text-align: center;	
+	color:green;
+	background-color: pink;
+	border-style: solid;
+	padding:20px;
+		
+}
+body{
+	/*background-color:rbg(255,100,255);*/
+	background-color: powderblue;
+	padding:20px;
+}
+
+.unorder{
+	font-size: 50px;
+	padding:20px;
+}
+
+.ordened{
+	font-size: 30px;
+	padding:20px;
+}
+
+.img{
+	height:300px;
+	width:500px;
+	border-style: solid;
+	position: absolute;
+    top: 150px;
+    right: 16px;
+    font-size: 18px;
+    border-style: dotted;
+
+}
+li{
+	border-style: solid;
+	box-sizing: border-box;
+}
