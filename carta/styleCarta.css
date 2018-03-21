@@ -1,56 +1,47 @@
 #divGrande{
 
- 	background-image:url(goku.jpg)
-    background-size:421px 211px;
+	background-image:url(goku.jpg);
+	background-repeat: no-repeat;
+	background-size:421px 211px;
 	position:absolute;
 	top: 10px;
-    left:700px;
+	left:700px;
 	border:3px solid red;
 	height:315px;
 	width:421px;
-	
- 	 
- 
+/*
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+
+*/
+opacity:1;
+  transition:opacity 0.1s  5s linear;	
 }
 
 #primerDiv{
 	height:60px;
 	width:375px;
 	position: absolute;
-    top: 210px;
-    left:10	;
-    padding:20px;
-    /*
-    border:3px solid blue;
-    color:blue;
-    */
+	top: 210px;
+	left:10	;
+	padding:20px;
 }
-/*
-#divGrande :hover{
+
+#divGrande:hover{
 	opacity: 0.5;
-	overflow: auto;	
-
-    
- }
-*/
-#divGrande :hover{
-    /*opacity: 1;
-    right: 0;
-    */
-
-  	filter: alpha(opacity=50);
- 	opacity: 0.5;
- }
-
-.img{
-	height: 211px;
-	width:421px;
 	
+	transition:opacity 0.1s  0s linear;	
+
 }
+
 
 body{
-	/*background-color:	#EDEEED;*/
-	
+	background-color:	#EDEEED;
+
 }
 
 
