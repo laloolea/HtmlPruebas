@@ -1,8 +1,10 @@
 #divGrande{
 
+	/*
 	background-image:url(goku.jpg);
 	background-repeat: no-repeat;
 	background-size:421px 211px;
+	*/
 	position:absolute;
 	top: 10px;
 	left:700px;
@@ -19,7 +21,7 @@
 
 */
 opacity:1;
-  transition:opacity 0.1s  5s linear;	
+  transition:opacity 0.1s  linear;	
 }
 
 #primerDiv{
@@ -31,7 +33,7 @@ opacity:1;
 	padding:20px;
 }
 
-#divGrande:hover{
+.img:hover{
 	opacity: 0.5;
 	
 	transition:opacity 0.1s  0s linear;	
@@ -44,6 +46,10 @@ body{
 
 }
 
+.img{
+	height:211px;
+	width:421px;
+}
 
 
 
